@@ -18,7 +18,7 @@ let findTheOldest = function(array) {
             object["yearOfDeath"] = new Date().getFullYear();
             return object.yearOfDeath - object.yearOfBirth;
         }
-        else if (!object.yearOfBirth) return "Person does not exist yet. ALso: existence not guaranteed.";
+        else if (!object.yearOfBirth) return "Person does not exist yet. Also: existence not guaranteed.";
         else return object.yearOfDeath - object.yearOfBirth;
     }
 }
