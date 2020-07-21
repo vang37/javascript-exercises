@@ -1,4 +1,4 @@
-const fibonacci = function (num) {
+const fibonacci = function(num) {
     let a = 1;
     let b = 1;
     array = []
